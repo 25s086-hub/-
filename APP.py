@@ -12,7 +12,6 @@ question = st.text_area("소감", placeholder="소감.")
 
 
 if st.button("확인"):
-    if agree:
-      st.success(user_id/학년/반/level)
+      st.success({user_id}/{학년}/{반}/{level})
       st.success(question)
         
